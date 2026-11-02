@@ -1,0 +1,9 @@
+# 同事的程序快照不进公开仓库
+engine_d08/
+__pycache__/
+*.pyc
+shot_*.png
+_wrapped.html
+# 网页版里的 model.js 是同事引擎（D08）的 JS 移植，打包网页含它：是否公开等用户决定，决定前不进公开仓库
+app/model.js
+app/沙盘网页（可直接打开）.html

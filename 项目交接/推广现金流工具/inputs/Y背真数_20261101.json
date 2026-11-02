@@ -1,0 +1,272 @@
+{
+  "scenario_name": "Y背 · 真数 2026-11-01（现金 60 万、团队 7 万/月 15 号、账期 6 个月、运费不含税）",
+  "product_name": "Y背运动内衣三件套",
+  "horizon": {
+    "start_month": "2026-11",
+    "end_month": "2027-06",
+    "storage_end_month": "2027-06",
+    "payout_anchor": "2026-11-02",
+    "bank_delay_days": 0,
+    "stress_days": 1
+  },
+  "product": {
+    "fx": 6.68,
+    "purchase_unit_cny": 57,
+    "sea_freight_cny": 7.9,
+    "air_freight_cny": 35,
+    "tariff_usd_per_unit": 0,
+    "tariff_rate": 0.35,
+    "tariff_days_after_arrival": -7,
+    "fba_standard_usd": 6.5,
+    "fba_peak_usd": null,
+    "peak_start": null,
+    "peak_end": null,
+    "storage_unit_usd_month": 0.11,
+    "storage_peak_usd_month": null,
+    "refund_rate": 0.1,
+    "sellable_rate": 0.9,
+    "refund_lag": 7,
+    "return_lag": 17,
+    "return_fee_usd": 3,
+    "gift_rate": 0
+  },
+  "inventory": {
+    "shipments": [
+      {
+        "id": "SHIP-1",
+        "qty": 2600,
+        "remaining_qty": 2600,
+        "purchase_unit_cny": 55.5,
+        "freight_unit_cny": 5,
+        "mode": "sea",
+        "ship_date": "2026-09-30",
+        "arrival_date": "2026-10-30",
+        "purchase_payment": "terms",
+        "purchase_months": 6,
+        "freight_payment": "terms",
+        "freight_days": 60
+      }
+    ],
+    "planned_batches": [],
+    "tariff_paid_before_start": true
+  },
+  "replenishment": {
+    "strategy": "sea",
+    "trigger": "forecast",
+    "shortage_mode": "lost",
+    "production_days": 30,
+    "sea_days": 30,
+    "air_days": 15,
+    "cover_days": 30,
+    "safety_days": 15,
+    "purchase_months": 6,
+    "freight_days": 60,
+    "stop_ads_when_out_of_stock": true
+  },
+  "promotion": {
+    "phases": [
+      {
+        "name": "11月起量",
+        "start": "2026-11-01",
+        "end": "2026-11-30",
+        "mode": "both",
+        "orders_total": 142,
+        "orders_shape": [
+          1,
+          3
+        ],
+        "ads_total": 183.62,
+        "ads_shape": [
+          1,
+          3
+        ],
+        "price_usd": 24.83,
+        "coupon_pct": 0,
+        "coupon_usage": 0.8,
+        "cpc": 3.4,
+        "cvr": 0.12,
+        "ad_share": 0.6
+      },
+      {
+        "name": "12月",
+        "start": "2026-12-01",
+        "end": "2026-12-31",
+        "mode": "both",
+        "orders_total": 695,
+        "orders_shape": [
+          1,
+          3
+        ],
+        "ads_total": 898.75,
+        "ads_shape": [
+          1,
+          3
+        ],
+        "price_usd": 24.83,
+        "coupon_pct": 0,
+        "coupon_usage": 0.8,
+        "cpc": 3.4,
+        "cvr": 0.12,
+        "ad_share": 0.6
+      },
+      {
+        "name": "1月",
+        "start": "2027-01-01",
+        "end": "2027-01-31",
+        "mode": "both",
+        "orders_total": 3183,
+        "orders_shape": [
+          1,
+          3
+        ],
+        "ads_total": 4116.14,
+        "ads_shape": [
+          1,
+          3
+        ],
+        "price_usd": 24.83,
+        "coupon_pct": 0,
+        "coupon_usage": 0.8,
+        "cpc": 3.4,
+        "cvr": 0.12,
+        "ad_share": 0.6
+      },
+      {
+        "name": "2月冲量",
+        "start": "2027-02-01",
+        "end": "2027-02-28",
+        "mode": "both",
+        "orders_total": 12010,
+        "orders_shape": [
+          1,
+          2
+        ],
+        "ads_total": 15530.87,
+        "ads_shape": [
+          1,
+          2
+        ],
+        "price_usd": 24.83,
+        "coupon_pct": 0,
+        "coupon_usage": 0.8,
+        "cpc": 3.4,
+        "cvr": 0.12,
+        "ad_share": 0.6
+      },
+      {
+        "name": "3月1日收尾",
+        "start": "2027-03-01",
+        "end": "2027-03-01",
+        "mode": "both",
+        "orders_total": 868,
+        "ads_total": 1122.47,
+        "price_usd": 24.83,
+        "coupon_pct": 0,
+        "coupon_usage": 0.8,
+        "cpc": 3.4,
+        "cvr": 0.12,
+        "ad_share": 0.6
+      }
+    ],
+    "default_coupon_usage": 0.8,
+    "avg_stock_days": 45,
+    "coupon_fixed_fee_usd": 5,
+    "coupon_variable_rate": 0.025,
+    "coupon_variable_cap_usd": 2000,
+    "ads_payment": {
+      "mode": "daily",
+      "card_pay_day": 15,
+      "card_min_lag_days": 20
+    }
+  },
+  "cash": {
+    "opening_cash_cny": 600000,
+    "cash_floor_cny": 0,
+    "team_expenses": [
+      {
+        "name": "团队固定开支（人员 + 场地）",
+        "amount_cny": 70000,
+        "pay_day": 15,
+        "start_month": "2026-11",
+        "end_month": "2027-06"
+      }
+    ],
+    "one_off_expenses": []
+  },
+  "release_distribution_csv": "回款释放分布_TM.csv",
+  "matrix": {
+    "coupon_pcts": [
+      0,
+      0.2,
+      0.3
+    ],
+    "paces": {
+      "缓": 0.5,
+      "中": 1.0,
+      "快": 1.5
+    },
+    "coupon_usage": 0.8
+  },
+  "flags": [
+    {
+      "field": "product.tariff_rate",
+      "status": "最优先确认",
+      "value": "按采购价 35% 估（约 $3/件）",
+      "note": "你说运费不含税。中国产内衣进美国的实际税率请向货代/报关行要（报告里有 0%~55% 的敏感性）。"
+    },
+    {
+      "field": "inventory.tariff_paid_before_start",
+      "status": "待确认",
+      "value": "首批关税已付",
+      "note": "首批 10/30 到仓，关税按已付算；如果还没付，请告诉我金额和日期。"
+    },
+    {
+      "field": "inventory.shipments[SHIP-1].remaining_qty",
+      "status": "待确认",
+      "value": "2,600 套",
+      "note": "同事方案的数；定稿按首批 4,000 件。"
+    },
+    {
+      "field": "inventory.shipments[SHIP-1].freight_payment",
+      "status": "待确认",
+      "value": "发货日起 60 天 → 2026-11-29 付 ¥13,000",
+      "note": "头程是否已付？"
+    },
+    {
+      "field": "promotion.phases[*].price_usd / coupon_pct / ads",
+      "status": "待确认",
+      "value": "$24.83 不开 coupon，广告全程 $21,852",
+      "note": "同事方案的推广假设；可在网页里直接改。"
+    },
+    {
+      "field": "replenishment.production_days / sea_days",
+      "status": "待确认",
+      "value": "30 + 30 天",
+      "note": "定稿按做货 5 周 + 美森 4 周。"
+    },
+    {
+      "field": "product.fba_standard_usd / storage / refund",
+      "status": "待确认",
+      "value": "$6.50 / $0.11 / 10%·90% 可再售",
+      "note": "按同事方案；内衣可再售比例可能偏低。"
+    },
+    {
+      "field": "promotion.ads_payment.mode",
+      "status": "待确认",
+      "value": "花费当天出钱",
+      "note": "余额扣或信用卡，网页里可选。"
+    },
+    {
+      "field": "product.sellable_rate",
+      "status": "待确认",
+      "value": "退货 10% 里 90% 可再售，按成本回库",
+      "note": "回库会把每件广告上限抬高约 $0.7–0.9。报告同时给“计回库”和“不计回库”两个上限，拿不准时按不计回库的保守值做决定（审核第 4 轮）。"
+    },
+    {
+      "field": "inventory.*.purchase_payment",
+      "status": "说明",
+      "value": "整批按账期到期日付（terms），或已付/不付",
+      "note": "工具只支持整批 terms / paid / unpaid 三种；不支持按卖出结算、分期或定金尾款。如果工厂条件不是整批账期，请告诉我具体条款。"
+    }
+  ]
+}

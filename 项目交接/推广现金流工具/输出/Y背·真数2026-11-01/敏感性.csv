@@ -1,0 +1,7 @@
+﻿field,value,ok,error
+product.tariff_rate,0.0,False,'factory_gap_total_cny'
+product.tariff_rate,0.1,False,'factory_gap_total_cny'
+product.tariff_rate,0.2,False,'factory_gap_total_cny'
+product.tariff_rate,0.35,False,'factory_gap_total_cny'
+product.tariff_rate,0.45,False,'factory_gap_total_cny'
+product.tariff_rate,0.55,False,'factory_gap_total_cny'

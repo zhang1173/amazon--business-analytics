@@ -1,0 +1,2286 @@
+{
+ "schema_version": 1,
+ "market": "US",
+ "product_name": "Y背运动内衣三件套",
+ "scenario_name": "Y背 · 原表格推广假设（$29.99 + 30% coupon，CPC 7→3.4，转化 12%，11/17 后每天 200 单）",
+ "start_month": "2026-11",
+ "end_month": "2027-06",
+ "storage_end_month": "2027-06",
+ "fx": 6.7,
+ "purchase_unit": 57.0,
+ "air_freight": 22.6,
+ "sea_freight": 7.5,
+ "production_days": 35,
+ "air_days": 14,
+ "sea_days": 28,
+ "purchase_months": 6,
+ "freight_days": 60,
+ "cover_days": 30,
+ "safety_days": 15,
+ "strategy": "sea",
+ "replenish_trigger": "forecast",
+ "shortage_mode": "lost",
+ "opening_layers": [],
+ "batches": [],
+ "shipments": [
+  {
+   "id": "SHIP-1",
+   "qty": 4000,
+   "purchase_unit": 57.0,
+   "freight_unit": 7.5,
+   "mode": "sea",
+   "ship_date": "2026-09-30",
+   "transit_days": 30,
+   "purchase_months": 6,
+   "freight_days": 60,
+   "confirmed": true,
+   "voided": false,
+   "actual_arrival_date": "2026-10-30",
+   "remaining_qty": 4000.0,
+   "remaining_as_of": "2026-11-01",
+   "purchase_payment": "terms",
+   "freight_payment": "terms"
+  }
+ ],
+ "opening_cash": [],
+ "historical_investment": null,
+ "gift_rate": 0.0,
+ "refund_rate": 0.08,
+ "sellable_rate": 0.9,
+ "refund_lag": 7,
+ "return_lag": 17,
+ "return_fee": 3.0,
+ "fba_standard": 6.04,
+ "fba_low": 0.0,
+ "storage_unit": 0.09,
+ "payout_anchor": "2026-11-02",
+ "stress_days": 1,
+ "bank_delay_days": 0,
+ "stop_month": "",
+ "clearance_rate": null,
+ "release_distribution": [
+  {
+   "days": 0,
+   "weight": 2.938713137517081e-05
+  },
+  {
+   "days": 6,
+   "weight": 0.0001763227882510249
+  },
+  {
+   "days": 7,
+   "weight": 0.0985644386323229
+  },
+  {
+   "days": 8,
+   "weight": 0.3557312252964427
+  },
+  {
+   "days": 9,
+   "weight": 0.2982206091952334
+  },
+  {
+   "days": 10,
+   "weight": 0.13325594722071205
+  },
+  {
+   "days": 11,
+   "weight": 0.05765755175808514
+  },
+  {
+   "days": 12,
+   "weight": 0.024200302687453164
+  },
+  {
+   "days": 13,
+   "weight": 0.013268289815889622
+  },
+  {
+   "days": 14,
+   "weight": 0.006582717428038262
+  },
+  {
+   "days": 15,
+   "weight": 0.003923182038585303
+  },
+  {
+   "days": 16,
+   "weight": 0.002101179893324713
+  },
+  {
+   "days": 17,
+   "weight": 0.0015722115285716385
+  },
+  {
+   "days": 18,
+   "weight": 0.0011754852550068325
+  },
+  {
+   "days": 19,
+   "weight": 0.0007346782843792704
+  },
+  {
+   "days": 20,
+   "weight": 0.0005289683647530746
+  },
+  {
+   "days": 21,
+   "weight": 0.0005142747990654892
+  },
+  {
+   "days": 22,
+   "weight": 0.0002938713137517081
+  },
+  {
+   "days": 23,
+   "weight": 0.0002938713137517081
+  },
+  {
+   "days": 24,
+   "weight": 0.0001763227882510249
+  },
+  {
+   "days": 25,
+   "weight": 0.00016162922256343946
+  },
+  {
+   "days": 26,
+   "weight": 0.00013224209118826866
+  },
+  {
+   "days": 27,
+   "weight": 0.00010285495981309784
+  },
+  {
+   "days": 28,
+   "weight": 0.00016162922256343946
+  },
+  {
+   "days": 29,
+   "weight": 4.408069706275622e-05
+  },
+  {
+   "days": 30,
+   "weight": 8.816139412551244e-05
+  },
+  {
+   "days": 31,
+   "weight": 0.00010285495981309784
+  },
+  {
+   "days": 32,
+   "weight": 4.408069706275622e-05
+  },
+  {
+   "days": 33,
+   "weight": 5.877426275034162e-05
+  },
+  {
+   "days": 34,
+   "weight": 2.938713137517081e-05
+  },
+  {
+   "days": 35,
+   "weight": 1.4693565687585406e-05
+  },
+  {
+   "days": 36,
+   "weight": 1.4693565687585406e-05
+  },
+  {
+   "days": 38,
+   "weight": 2.938713137517081e-05
+  },
+  {
+   "days": 40,
+   "weight": 1.4693565687585406e-05
+  }
+ ],
+ "months": [
+  {
+   "month": "2026-11",
+   "mode": "daily",
+   "qty": 3449,
+   "ads": 67839.8403,
+   "price": 29.99,
+   "price_lines": [],
+   "days": [
+    {
+     "date": "2026-11-01",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2026-11-02",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2026-11-03",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2026-11-04",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2026-11-05",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2026-11-06",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2026-11-07",
+     "qty": 2,
+     "ads": 133.0721,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-11-08",
+     "qty": 18,
+     "ads": 916.923,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-11-09",
+     "qty": 32,
+     "ads": 1552.3193,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-11-10",
+     "qty": 47,
+     "ads": 2050.0464,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-11-11",
+     "qty": 62,
+     "ads": 2420.8902,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-11-12",
+     "qty": 77,
+     "ads": 2675.6364,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-11-13",
+     "qty": 93,
+     "ads": 2825.0705,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-11-14",
+     "qty": 107,
+     "ads": 2879.9783,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-11-15",
+     "qty": 122,
+     "ads": 2851.1455,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-11-16",
+     "qty": 137,
+     "ads": 2749.3578,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-11-17",
+     "qty": 152,
+     "ads": 2585.4008,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-11-18",
+     "qty": 200,
+     "ads": 3400.0,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-11-19",
+     "qty": 200,
+     "ads": 3400.0,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-11-20",
+     "qty": 200,
+     "ads": 3400.0,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-11-21",
+     "qty": 200,
+     "ads": 3400.0,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-11-22",
+     "qty": 200,
+     "ads": 3400.0,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-11-23",
+     "qty": 200,
+     "ads": 3400.0,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-11-24",
+     "qty": 200,
+     "ads": 3400.0,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-11-25",
+     "qty": 200,
+     "ads": 3400.0,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-11-26",
+     "qty": 200,
+     "ads": 3400.0,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-11-27",
+     "qty": 200,
+     "ads": 3400.0,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-11-28",
+     "qty": 200,
+     "ads": 3400.0,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-11-29",
+     "qty": 200,
+     "ads": 3400.0,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-11-30",
+     "qty": 200,
+     "ads": 3400.0,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    }
+   ],
+   "storage_unit": 0.27,
+   "pause_sales": false,
+   "pause_ads": false
+  },
+  {
+   "month": "2026-12",
+   "mode": "daily",
+   "qty": 6200,
+   "ads": 14514.0767,
+   "price": 29.99,
+   "price_lines": [],
+   "days": [
+    {
+     "date": "2026-12-01",
+     "qty": 200,
+     "ads": 3400.0,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-12-02",
+     "qty": 200,
+     "ads": 3400.0,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-12-03",
+     "qty": 200,
+     "ads": 3400.0,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-12-04",
+     "qty": 200,
+     "ads": 206.176,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-12-05",
+     "qty": 200,
+     "ads": 244.8,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-12-06",
+     "qty": 200,
+     "ads": 244.8,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-12-07",
+     "qty": 200,
+     "ads": 244.8,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-12-08",
+     "qty": 200,
+     "ads": 244.8,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-12-09",
+     "qty": 200,
+     "ads": 244.8,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-12-10",
+     "qty": 200,
+     "ads": 244.8,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-12-11",
+     "qty": 200,
+     "ads": 244.8,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-12-12",
+     "qty": 200,
+     "ads": 244.8,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-12-13",
+     "qty": 200,
+     "ads": 244.8,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-12-14",
+     "qty": 200,
+     "ads": 244.8,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-12-15",
+     "qty": 200,
+     "ads": 244.8,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-12-16",
+     "qty": 200,
+     "ads": 244.8,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-12-17",
+     "qty": 200,
+     "ads": 244.8,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-12-18",
+     "qty": 200,
+     "ads": 244.8,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-12-19",
+     "qty": 200,
+     "ads": 244.8,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-12-20",
+     "qty": 200,
+     "ads": 244.8,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-12-21",
+     "qty": 200,
+     "ads": 14.8447,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-12-22",
+     "qty": 200,
+     "ads": 17.6256,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-12-23",
+     "qty": 200,
+     "ads": 17.6256,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-12-24",
+     "qty": 200,
+     "ads": 17.6256,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-12-25",
+     "qty": 200,
+     "ads": 17.6256,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-12-26",
+     "qty": 200,
+     "ads": 17.6256,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-12-27",
+     "qty": 200,
+     "ads": 17.6256,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-12-28",
+     "qty": 200,
+     "ads": 17.6256,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-12-29",
+     "qty": 200,
+     "ads": 17.6256,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-12-30",
+     "qty": 200,
+     "ads": 17.6256,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2026-12-31",
+     "qty": 200,
+     "ads": 17.6256,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    }
+   ],
+   "storage_unit": 0.27,
+   "pause_sales": false,
+   "pause_ads": false
+  },
+  {
+   "month": "2027-01",
+   "mode": "daily",
+   "qty": 2800,
+   "ads": 34098.7057,
+   "price": 29.99,
+   "price_lines": [],
+   "days": [
+    {
+     "date": "2027-01-01",
+     "qty": 200,
+     "ads": 17.6256,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2027-01-02",
+     "qty": 200,
+     "ads": 17.6256,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2027-01-03",
+     "qty": 200,
+     "ads": 17.6256,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2027-01-04",
+     "qty": 200,
+     "ads": 3400.0,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2027-01-05",
+     "qty": 200,
+     "ads": 3400.0,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2027-01-06",
+     "qty": 200,
+     "ads": 3400.0,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2027-01-07",
+     "qty": 200,
+     "ads": 3400.0,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2027-01-08",
+     "qty": 200,
+     "ads": 3400.0,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2027-01-09",
+     "qty": 200,
+     "ads": 3400.0,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2027-01-10",
+     "qty": 200,
+     "ads": 3400.0,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2027-01-11",
+     "qty": 200,
+     "ads": 3400.0,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2027-01-12",
+     "qty": 200,
+     "ads": 3400.0,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2027-01-13",
+     "qty": 200,
+     "ads": 3400.0,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2027-01-14",
+     "qty": 200,
+     "ads": 45.8289,
+     "price": 29.99,
+     "coupon_share": 0.8,
+     "fba_standard": 6.63
+    },
+    {
+     "date": "2027-01-15",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-01-16",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-01-17",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-01-18",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-01-19",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-01-20",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-01-21",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-01-22",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-01-23",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-01-24",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-01-25",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-01-26",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-01-27",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-01-28",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-01-29",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-01-30",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-01-31",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    }
+   ],
+   "storage_unit": 0.09,
+   "pause_sales": false,
+   "pause_ads": false
+  },
+  {
+   "month": "2027-02",
+   "mode": "daily",
+   "qty": 0,
+   "ads": 0.0,
+   "price": 29.99,
+   "price_lines": [],
+   "days": [
+    {
+     "date": "2027-02-01",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-02-02",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-02-03",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-02-04",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-02-05",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-02-06",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-02-07",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-02-08",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-02-09",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-02-10",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-02-11",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-02-12",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-02-13",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-02-14",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-02-15",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-02-16",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-02-17",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-02-18",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-02-19",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-02-20",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-02-21",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-02-22",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-02-23",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-02-24",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-02-25",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-02-26",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-02-27",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-02-28",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    }
+   ],
+   "storage_unit": 0.09,
+   "pause_sales": false,
+   "pause_ads": false
+  },
+  {
+   "month": "2027-03",
+   "mode": "daily",
+   "qty": 0,
+   "ads": 0.0,
+   "price": 29.99,
+   "price_lines": [],
+   "days": [
+    {
+     "date": "2027-03-01",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-03-02",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-03-03",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-03-04",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-03-05",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-03-06",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-03-07",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-03-08",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-03-09",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-03-10",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-03-11",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-03-12",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-03-13",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-03-14",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-03-15",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-03-16",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-03-17",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-03-18",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-03-19",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-03-20",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-03-21",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-03-22",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-03-23",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-03-24",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-03-25",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-03-26",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-03-27",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-03-28",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-03-29",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-03-30",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-03-31",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    }
+   ],
+   "storage_unit": 0.09,
+   "pause_sales": false,
+   "pause_ads": false
+  },
+  {
+   "month": "2027-04",
+   "mode": "daily",
+   "qty": 0,
+   "ads": 0.0,
+   "price": 29.99,
+   "price_lines": [],
+   "days": [
+    {
+     "date": "2027-04-01",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-04-02",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-04-03",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-04-04",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-04-05",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-04-06",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-04-07",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-04-08",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-04-09",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-04-10",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-04-11",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-04-12",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-04-13",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-04-14",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-04-15",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-04-16",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-04-17",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-04-18",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-04-19",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-04-20",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-04-21",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-04-22",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-04-23",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-04-24",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-04-25",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-04-26",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-04-27",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-04-28",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-04-29",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-04-30",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    }
+   ],
+   "storage_unit": 0.09,
+   "pause_sales": false,
+   "pause_ads": false
+  },
+  {
+   "month": "2027-05",
+   "mode": "daily",
+   "qty": 0,
+   "ads": 0.0,
+   "price": 29.99,
+   "price_lines": [],
+   "days": [
+    {
+     "date": "2027-05-01",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-05-02",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-05-03",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-05-04",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-05-05",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-05-06",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-05-07",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-05-08",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-05-09",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-05-10",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-05-11",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-05-12",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-05-13",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-05-14",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-05-15",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-05-16",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-05-17",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-05-18",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-05-19",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-05-20",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-05-21",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-05-22",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-05-23",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-05-24",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-05-25",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-05-26",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-05-27",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-05-28",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-05-29",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-05-30",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-05-31",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    }
+   ],
+   "storage_unit": 0.09,
+   "pause_sales": false,
+   "pause_ads": false
+  },
+  {
+   "month": "2027-06",
+   "mode": "daily",
+   "qty": 0,
+   "ads": 0.0,
+   "price": 29.99,
+   "price_lines": [],
+   "days": [
+    {
+     "date": "2027-06-01",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-06-02",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-06-03",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-06-04",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-06-05",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-06-06",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-06-07",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-06-08",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-06-09",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-06-10",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-06-11",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-06-12",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-06-13",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-06-14",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-06-15",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-06-16",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-06-17",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-06-18",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-06-19",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-06-20",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-06-21",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-06-22",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-06-23",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-06-24",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-06-25",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-06-26",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-06-27",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-06-28",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-06-29",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    },
+    {
+     "date": "2027-06-30",
+     "qty": 0,
+     "ads": 0.0,
+     "price": 29.99,
+     "coupon_share": null,
+     "fba_standard": 6.04
+    }
+   ],
+   "storage_unit": 0.09,
+   "pause_sales": false,
+   "pause_ads": false
+  }
+ ],
+ "pricing_mode": "coupon_gross",
+ "coupons": [
+  {
+   "id": "CP-2026-11-07",
+   "name": "Coupon 30% 2026-11-07~2026-12-06",
+   "start": "2026-11-07",
+   "end": "2026-12-06",
+   "discount_type": "percent",
+   "discount": 0.3,
+   "fixed_fee": 5,
+   "variable_rate": 0.025,
+   "variable_cap": 2000,
+   "status": "active",
+   "fee_note": ""
+  },
+  {
+   "id": "CP-2026-12-07",
+   "name": "Coupon 30% 2026-12-07~2027-01-05",
+   "start": "2026-12-07",
+   "end": "2027-01-05",
+   "discount_type": "percent",
+   "discount": 0.3,
+   "fixed_fee": 5,
+   "variable_rate": 0.025,
+   "variable_cap": 2000,
+   "status": "active",
+   "fee_note": ""
+  },
+  {
+   "id": "CP-2027-01-06",
+   "name": "Coupon 30% 2027-01-06~2027-01-14",
+   "start": "2027-01-06",
+   "end": "2027-01-14",
+   "discount_type": "percent",
+   "discount": 0.3,
+   "fixed_fee": 5,
+   "variable_rate": 0.025,
+   "variable_cap": 2000,
+   "status": "active",
+   "fee_note": ""
+  }
+ ],
+ "coupon_low_fba_choice": "",
+ "coupon_low_fba_evidence": "",
+ "extra_expenses": []
+}

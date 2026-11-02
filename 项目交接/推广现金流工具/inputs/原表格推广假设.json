@@ -1,0 +1,60 @@
+{
+ "scenario_name": "Y背 · 原表格推广假设（$29.99 + 30% coupon，CPC 7→3.4，转化 12%，11/17 后每天 200 单）",
+ "product_name": "Y背运动内衣三件套",
+ "horizon": {
+  "start_month": "2026-11", "end_month": "2027-06", "storage_end_month": "2027-06",
+  "payout_anchor": "2026-11-02", "bank_delay_days": 0, "stress_days": 1
+ },
+ "product": {
+  "fx": 6.7,
+  "purchase_unit_cny": 57, "sea_freight_cny": 7.5, "air_freight_cny": 22.6,
+  "tariff_usd_per_unit": 0, "tariff_rate": 0, "tariff_days_after_arrival": 0,
+  "fba_standard_usd": 6.04, "fba_peak_usd": 6.63, "peak_start": "2026-11-07", "peak_end": "2027-01-14",
+  "storage_unit_usd_month": 0.09, "storage_peak_usd_month": 0.27,
+  "refund_rate": 0.08, "sellable_rate": 0.9, "refund_lag": 7, "return_lag": 17, "return_fee_usd": 3,
+  "gift_rate": 0
+ },
+ "inventory": {
+  "shipments": [
+   {"id": "SHIP-1", "qty": 4000, "remaining_qty": 4000, "purchase_unit_cny": 57, "freight_unit_cny": 7.5,
+    "mode": "sea", "ship_date": "2026-09-30", "arrival_date": "2026-10-30",
+    "purchase_payment": "terms", "purchase_months": 6, "freight_payment": "terms", "freight_days": 60}
+  ],
+  "planned_batches": [],
+  "tariff_paid_before_start": true
+ },
+ "replenishment": {
+  "strategy": "sea", "trigger": "forecast", "shortage_mode": "lost",
+  "production_days": 35, "sea_days": 28, "air_days": 14, "cover_days": 30, "safety_days": 15,
+  "purchase_months": 6, "freight_days": 60, "stop_ads_when_out_of_stock": true
+ },
+ "promotion": {
+  "phases": [
+   {"name": "上新 11 天（原表格）", "start": "2026-11-07", "end": "2026-11-17", "mode": "orders",
+    "orders_total": 849, "orders_shape": [3, 200],
+    "price_usd": 29.99, "coupon_pct": 0.30, "coupon_usage": 0.8, "cpc": [7, 3.4], "cvr": 0.12, "ad_share": [1.0, 0.6]},
+   {"name": "旺季 11/18–1/14（定稿外推：每天 200 单）", "start": "2026-11-18", "end": "2027-01-14", "mode": "orders",
+    "orders_per_day": 200,
+    "price_usd": 29.99, "coupon_pct": 0.30, "coupon_usage": 0.8, "cpc": 3.4, "cvr": 0.12, "ad_share": 0.6}
+  ],
+  "default_coupon_usage": 0.8, "avg_stock_days": 30,
+  "coupon_fixed_fee_usd": 5, "coupon_variable_rate": 0.025, "coupon_variable_cap_usd": 2000,
+  "ads_payment": {"mode": "daily", "card_pay_day": 15, "card_min_lag_days": 20}
+ },
+ "cash": {
+  "opening_cash_cny": 0,
+  "cash_floor_cny": 0,
+  "team_expenses": [
+   {"name": "团队固定开支（示例数，待填）", "amount_cny": 30000, "pay_day": 10, "start_month": "2026-11", "end_month": "2027-06"}
+  ],
+  "one_off_expenses": []
+ },
+ "release_distribution_csv": "回款释放分布_TM.csv",
+ "matrix": {"coupon_pcts": [0, 0.2, 0.3], "paces": {"缓": 0.5, "中": 1.0, "快": 1.5}, "coupon_usage": 0.8},
+ "flags": [
+  {"field": "promotion.phases", "status": "说明", "value": "按原表格 11 天计划 + 定稿外推", "note": "这套参数是为了和定稿结论对照（每件只剩 $0.91、广告每件 $17 远超上限）。不是推荐方案。"},
+  {"field": "inventory.shipments[SHIP-1]", "status": "待确认", "value": "4,000 件全在，¥57 + 头程 ¥7.5，账期同同事方案", "note": "首批到底剩多少？账期条件？"},
+  {"field": "product.tariff_usd_per_unit", "status": "最优先确认", "value": "0（按包税算）", "note": "头程 ¥14/kg 含不含关税？"},
+  {"field": "cash.opening_cash_cny / team_expenses", "status": "待填", "value": "0 / 示例 ¥30,000 月", "note": "现金起点和团队开支请填真数。"}
+ ]
+}

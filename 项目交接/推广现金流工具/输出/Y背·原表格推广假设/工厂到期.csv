@@ -1,0 +1,5 @@
+﻿date,kind,ref,amount_cny,balance_after,gap,ok
+2026-11-29,freight,SHIP-1,30000.0,-491353.01,491353.01,False
+2027-02-05,freight,AUTO-2026-11-02-sea,14992.5,-497285.11,497285.11,False
+2027-03-30,purchase,SHIP-1,228000.0,-784018.94,784018.94,False
+2027-06-07,purchase,AUTO-2026-11-02-sea,113943.0,-958136.38,958136.38,False

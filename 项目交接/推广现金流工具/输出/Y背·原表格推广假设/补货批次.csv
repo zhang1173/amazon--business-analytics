@@ -1,0 +1,2 @@
+﻿id,qty,order_date,ship_date,arrival_date,purchase_cny,freight_cny,purchase_pay_date,freight_pay_date,auto
+AUTO-2026-11-02-sea,1999,2026-11-02,2026-12-07,2027-01-04,113943.0,14992.5,2027-06-07,2027-02-05,True
